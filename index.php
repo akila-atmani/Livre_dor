@@ -17,7 +17,7 @@
             <li><a href="livre_dor.php">Livre d'Or</a></li>
             <li><a href="connexion.php">Connexion</a></li>
             <li><a href="inscription.php">Inscription</a></li>
-            <li><a href="commentaire.php">com</a></li>
+            <li><a href="files/commentaire.php">com</a></li>
         </ul>
     </nav>
 
