@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #d4af37;
+    text-align: center;
+    margin-top: 3rem;
+    text-shadow: 4px 4px 20px rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+    animation: fadeIn 2s ease-out; 
+}
+/* Style pour le formulaire */
+form {
+    background-color: rgba(212, 175, 55, 0.3);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Label du formulaire */
+label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: rgba(249, 242, 242, 0.955);
+}
+
+/* Zone de texte pour le commentaire */
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fafafa;
+    resize: none;
+    transition: border-color 0.3s ease;
+}
+
+/* Effet de focus pour la zone de texte */
+textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Bouton d'envoi */
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    background-color: #0f0919;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+/* Effet de survol du bouton */
+button:hover {
+    background-color: #130f2c;
+}
+
+/* Message de confirmation */
+p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #dbd802;
+    margin-top: 20px;
+}
+
+/* Message d'erreur */
+p.error {
+    color: #e74c3c;
+}
+
+footer {
+    text-align: center;
+    background-color: #1f1f1f;
+    color: #e6d8b9;
+    padding: 20px;
+    font-size: 1rem;
+    width: 100%;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.8);
+    margin-top: 250px;
+    transition: background-color 0.3s ease;
+}
+
+footer:hover {
+    background-color: #2a2a2a;
+}
